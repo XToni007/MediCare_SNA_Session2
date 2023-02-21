@@ -1,0 +1,210 @@
+html, body{
+  font-family: Arial, Helvetica, sans-serif;
+  background:rgba(0,0,0,0.7)url('assets/home.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  margin-bottom: 12%;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu_bar ul li{
+    display:none;
+  }
+
+  button{
+    display: none;
+  }
+  
+.menu_bar .ham{
+    display: block;
+    padding: 10px;
+    font-size: 40px;
+    color: black;
+  }
+
+  .menu_bar .ham a{
+    text-decoration: none;
+  }
+
+
+}
+
+.ham{
+  display: none;
+  cursor: pointer;
+}
+
+.menu_bar{
+  background-color: white;
+  box-shadow: 2px 0px 5px 5px black;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.menu_bar ul{
+  list-style: none;
+  display: flex;
+  
+}
+
+.menu_bar ul li{
+  padding: 10px 20px;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu_bar ul li a{
+  font-family: "montserrat",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+
+  transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover{
+  color: #38abab;
+  text-decoration: underline;
+}
+
+.dropdown_menu{
+  display: none;
+  position: absolute ;
+  list-style: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu{
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  
+}
+
+.dropdown_menu ul{
+  display: block;
+  border: 1px solid;
+  box-shadow: 5px 5px #888888;
+  padding: 15px;
+}
+
+.dropdown_menu ul li{
+  width: 60px;
+  padding: 5px;
+  
+}
+
+button{
+  padding: 10px 20px;
+  background-color: rgb(0, 136, 169,1);
+  border: none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s;
+  margin: 1px;
+  font-family: "montserrat",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+button:hover{
+  color: #38abab;
+}
+
+
+
+
+.footer{
+  padding: 17px;
+  text-align: center;
+  background: white;
+  margin-top: 20%;
+}
+
+.footer a{
+  margin-right: 20px;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.footer p{
+  margin-top: 5px;
+}
+
+.Medicare{
+  line-height: 200px;
+  height: 200px;
+  font-weight:bold;
+  text-align: center;
+ 
+}
+
+.Medicare p{
+  color: white;
+  font-size: 80px;
+  line-height: 5;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.subjudul{
+  line-height: 100px;
+  height: 100px;
+  font-weight:bold;
+  text-align: center;
+}
+
+.subjudul p{
+  color: white;
+  font-size: 50;
+  line-height: 20;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.JoinUs{
+  line-height: 20;
+  height: 100px;
+  font-weight:bold;
+  text-align: center;
+}
+
+.JoinUs button{
+  padding: 10px 20px;
+  background-color: rgb(0, 136, 169,1);
+  border: none;
+  border-radius: 10px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s;
+  margin: 1px;
+  font-family: "montserrat",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}

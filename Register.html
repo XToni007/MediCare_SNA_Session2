@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Register.css">
+    <script defer src="Register.js"></script>
+</head>
+
+<header>
+    <div class="menu_bar">
+        <img src="assets/icon.png">
+        <ul>
+            <li><a href="Project_1.html">Home</a></li>
+            <li><a href="#">Products<i class="fas fa-caret-down"></i></a>
+                <div class="dropdown_menu">
+                    <ul>
+                        <li><a href="Healtcare.html">Healtcare</a></li>
+                        <li><a href="Cosmetic.html">Cosmetic</a></li>
+                        <li><a href="Misc.html">Misc</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <a href="Login.html"><button>Login</button></a>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <div class="Login">
+        <h1>Registration</h1>
+        <form  id = "form" method="post">
+            <div class="txt_field">
+                <input id="Full_name" name="Full_name" type="text" required> 
+                <span></span>
+                <label>Full Name</label>
+            </div>
+            <div class="txt_field">
+                <input id="Email" name="Email" type="text" required> 
+                <span></span>
+                <label>Email</label>
+            </div>
+                <p>Gender</p>
+                <input type="radio" id="gender" name="gender" value="male" required>Male</input>
+                <input type="radio" id="gender" name="gender" value="female" required>Female</input>
+                <br><br>
+                    <label>City</label>
+                    <br><br>
+                    <select name="city" id="city" style="width: 100%;" required>
+                        <option value="">Select City</option>
+                        <option value="jakarta">Jakarta</option>
+                        <option value="medan">Medan</option>
+                        <option value="surabaya">Surabaya</option>
+                        <option value="bali">Bali</option>
+                    </select>
+            <div class="txt_field">
+                <input id="password" name="password" type="password"required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <div class="txt_field">
+                <input id="Confirm" name="Confirm" type="password"required>
+                <span></span>
+                <label>Confirm Password</label>
+            </div>
+            <a href="Project_1.html"><input type="submit" value="Register"></a>
+        </form>
+    </div>
+</body>
+
+<footer>
+    <div class="footer">
+        <a href="https://www.twitter.com/" target="_blank"><img src="assets/twitter.png"  width="40" height="40"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook (2).png" width="40" height="40"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="assets/instagram.png" width="40" height="40"></a>
+        <p>Copyright © 2022 [Antonio Fandako]. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</html>

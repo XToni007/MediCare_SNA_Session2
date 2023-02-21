@@ -1,0 +1,204 @@
+.html, body{
+    font-family: "montserrat",sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  margin-bottom: 12%;
+}
+
+
+.menu_bar{
+  background-color: white;
+  box-shadow: 2px 0px 5px 5px black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu_bar ul{
+  list-style: none;
+  display: flex;
+  
+}
+
+.menu_bar ul li{
+  padding: 10px 20px;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu_bar ul li a{
+  font-family: "montserrat",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+
+  transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover{
+  color: #38abab;
+  text-decoration: underline;
+}
+
+.dropdown_menu{
+  display: none;
+  position: absolute ;
+  list-style: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu{
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  
+}
+
+.dropdown_menu ul{
+  display: block;
+  border: 1px solid;
+  box-shadow: 5px 5px #888888;
+  padding: 15px;
+}
+
+.dropdown_menu ul li{
+  width: 60px;
+  padding: 5px;
+  
+}
+
+button{
+  padding: 10px 20px;
+  background-color: rgb(0, 136, 169,1);
+  border: none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s;
+  margin: 1px;
+  font-family: "montserrat",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+button:hover{
+  color: #38abab;
+}
+
+
+.footer{
+  padding: 17px;
+  text-align: center;
+  background: white;
+  margin-top: 30%;
+}
+
+.footer a{
+  margin-right: 20px;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.footer p{
+  margin-top: 5px;
+}
+
+.Judul{
+    line-height: 200px;
+  height: 120px;
+  text-align: center;
+}
+
+.Judul p{
+    color: black;
+    font-size: 60px;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align:middle;
+  }
+
+  .SubJudul{
+    line-height: 10px;
+    height: 10px;
+    text-align: center;
+  }
+  
+  .SubJudul p{
+    color: black;
+    font-size: 50;
+    line-height: 2;
+    display: inline-block;
+    vertical-align:middle;
+  }
+
+  .container{
+    position: relative;
+    width: 95%;
+    height: 400px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .box{
+    margin: 20px;
+    width: 350px;
+    height: 400px; 
+    background-color:white;
+    border: 1px solid;
+    box-shadow: 5px 5px #888888;
+    padding: 15px; 
+  }
+
+  .box h1{
+    background-color: yellow;
+    box-shadow: 5px 5px #888888;
+    position:absolute;
+    margin: -1%;
+    padding: 0;
+  }
+
+  .box:hover{
+    background-color:white;
+    border: 5px solid;
+    box-shadow: none;
+    padding: 15px;
+  }
+
+  .box img{
+    margin: 15px;
+    width: 350px;
+   height: 250px; 
+  }
+
+  .footer{
+    padding: 17px;
+    text-align: center;
+    background: white;
+    margin-top: 10%;
+  }
+  
+  .footer a{
+    margin-right: 20px;
+    padding: 10px;
+    padding-top: 10px;
+  }
+  
+  .footer p{
+    margin-top: 5px;
+  }
